@@ -25,6 +25,11 @@ docker pull mongo:5.0.0
 docker-compose up -d
 ```
 
+7. Reconstruir la base de datos de desarrollo con la semilla (Postman)
+```
+http://localhost:3000/api/v1/seed
+```
+
 ## Stack usado
 * Nest.js
 * MongoDB
