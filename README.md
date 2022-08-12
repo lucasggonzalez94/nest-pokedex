@@ -13,11 +13,18 @@ npm i
 ```
 npm i -g @nestjs/cli
 ```
-4. Levantar la base de datos
+4. Descargar [Docker desktop](https://www.docker.com/get-started/)
+
+5. Descargar imagen de Mongo 5.0.0
+```
+docker pull mongo:5.0.0
+```
+
+6. Levantar la base de datos
 ```
 docker-compose up -d
 ```
 
 ## Stack usado
-* MongoDB
 * Nest.js
+* MongoDB
