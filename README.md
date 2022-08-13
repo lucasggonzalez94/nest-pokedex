@@ -5,14 +5,17 @@
 # Ejecutar desarrollo
 
 1. Clonar el repositorio
+
 2. Ejecutar
 ```
 npm i
 ```
+
 3. Tener Nest CLI instalado
 ```
 npm i -g @nestjs/cli
 ```
+
 4. Descargar [Docker desktop](https://www.docker.com/get-started/)
 
 5. Descargar imagen de Mongo 5.0.0
