@@ -28,7 +28,16 @@ docker pull mongo:5.0.0
 docker-compose up -d
 ```
 
-7. Reconstruir la base de datos de desarrollo con la semilla (Postman)
+7. Clonar el archivo ```.env.template``` y renombrar la copia a ```.env```
+
+8. Llenar las variables de entorno definidas en el ```.env```
+
+9. Ejecutar la aplicación en dev:
+```
+npm run start:dev
+```
+
+10. Reconstruir la base de datos de desarrollo con la semilla (Postman)
 ```
 http://localhost:3000/api/v1/seed
 ```
