@@ -46,7 +46,7 @@ http://localhost:3000/api/v1/seed
 * Nest.js
 * MongoDB
 
-#Notas
+## Notas
 Hacer redeploy en Heroku sin cambios:
 ```
 git commit --allow-empty -m "Trigger Heroku deploy"
